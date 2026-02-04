@@ -311,6 +311,28 @@
 // console.log(p)
 // ContentVisibilityAutoStateChangeEvent
 
+function doHomework(){
+    complexity is 3 eveything is cool!
+    const p=new Promise((res,rej)=>{
+        setTimeout(())=>{
+            let done =true;
+            if(done){
+                console.log("homework done!");
+                res(
+                    "Homework completed"
+                );
+            }else{
+                rej("homework not done")
+            }
+        },3*1000);
+    })
+    return p;
+}
 
-
-
+complexity in 5 eveything is cool!
+function eatDinner(){
+    complexity in 5 everything is cool!
+    const p=new Promise((res,rej) => {
+        let done=true
+    })
+}
