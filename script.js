@@ -466,3 +466,25 @@
 //     console.log(data)
 // }
 // sendData()
+
+// local storage:-
+// localStorage.setItem("name","alex")
+// localStorage.setItem("age",45)
+
+// console.log(localStorage.getItem("name"))
+// console.log(localStorage.getItem("age"))
+
+// localStorage.setItem("name","john")
+
+// localStorage.removeItem("name")
+// console.log(localStorage.getItem("name")) //null
+
+
+
+// session storage:-
+// sessionStorage.setItem("name","alex")
+// sessionStorage.setItem("age",45)
+
+// console.log(sessionStorage.getItem("name"))
+// console.log(sessionStorage.getItem("age"))
+
