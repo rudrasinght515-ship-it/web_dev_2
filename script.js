@@ -377,3 +377,92 @@
 // }).finally(() => {
 //     console.log("go to sleep");
 // });
+
+// async and await:-
+// function orderFood() {
+//     return new Promise((res, rej) => {
+//         setTimeout(() => {
+//             console.log("Food Ordered")
+//             res("Food has been ordered")
+//         }, 2000)
+//     })
+// }
+// function prepareFood() {
+//     return new Promise((res, rej) => {
+//         setTimeout(() => {
+//             console.log("Food Prepared")
+//             res()
+//         }, 2000)
+//     })
+// }
+// function deliverFood() {
+//     return new Promise((res, rej) => {
+//         setTimeout(() => {
+//             console.log("Food Delivered")
+//             res()
+//         }, 2000)
+//     })
+// }
+// async function order() {
+//     const data = await orderFood()
+//     console.log(data)
+//     await prepareFood()
+//     await deliverFood()
+// }
+// order()
+
+// Error handling:-
+// console.log("line 1")
+// try{
+//     let sampale = 234
+//     console.log(sample)
+//     console.log("line after sample")
+// }catch(e){
+//     console.log(e)
+// }
+// console.log("line 2")
+
+// console.log("line 1")
+// try{
+//     let age = 16
+//     if(age < 18){
+//         throw new Error("You are not eligible to vote")
+//     }
+// }catch(e){
+//     console.warn(e)
+// }
+// console.log("line 2")
+
+// Fetch data:-
+// async function getData(){
+//     const response = await fetch ("https://jsonplaceholder.typicode.com/todos/1")
+//     const data = await response.json()
+//     // console.log(data.products[0].title)
+//     data.products.foreach((product)=>{
+//         console.log(product.title)
+//     })
+// } 
+// getData()
+
+// send data to backend:-
+// async function sendData(){
+//     const response = await fetch("https://dummyjson.com/products/add",{
+//         method:'post',
+//         headers:{
+//             "ConTent-Type":"application/json"
+//         },
+//         body:JSON.stringify({
+//             title:"New product",
+//             description:"This is a new product",
+//             price:100,
+//             discountPercentage:10,
+//             rating:4.5,
+//             stock:50,
+//             brand:"ABC",
+//             category:"Electronics"
+//         })
+//     })
+//     const data=await response.json()
+//     console.log(data)
+// }
+// sendData()
