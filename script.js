@@ -488,3 +488,55 @@
 // console.log(sessionStorage.getItem("name"))
 // console.log(sessionStorage.getItem("age"))
 
+// function gen.generate() {
+//     return Math.floor(Math.random() * 1000000);
+// }
+
+// )
+// console.lot(gen.generate()
+
+
+// function* generate() {
+//     yield 1;
+//     yield 2;
+//     yield 3;
+//     let index = 234578
+//     while(true) {
+//         yield index
+//         index++
+//     }
+// }
+// const gen = generate()
+// console.log(gen)
+// console.log(gen.next())
+// console.log(gen.next())
+// console.log(gen.next())
+// console.log(gen.next())
+// console.log(gen.next())
+
+
+
+// function add(a) {
+//     return function(b) {
+//         return function(c) {
+//             return a+b+c
+//         }
+//     }
+// }
+// const first = add(1)
+// console.second = first(2)
+// const result = second(3)
+// console.log(second(3))
+// console.lot(result)*
+
+
+
+const form = document.querySelector("WeatherForm")
+
+form.addEventListener('submit', async(event)=> {
+    event.preventDefault()
+    // const searchedCity = city.value
+    console.log(searchedCity)
+    const response = await fetch()
+    const data = awaite response.json()
+})
