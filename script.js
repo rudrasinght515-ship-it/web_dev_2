@@ -531,12 +531,12 @@
 
 
 
-const form = document.querySelector("WeatherForm")
+// const form = document.querySelector("WeatherForm")
 
-form.addEventListener('submit', async(event)=> {
-    event.preventDefault()
-    // const searchedCity = city.value
-    console.log(searchedCity)
-    const response = await fetch()
-    const data = awaite response.json()
-})
+// form.addEventListener('submit', async(event)=> {
+//     event.preventDefault()
+//     // const searchedCity = city.value
+//     console.log(searchedCity)
+//     const response = await fetch()
+//     const data = awaite response.json()
+// })
