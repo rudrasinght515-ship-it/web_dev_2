@@ -515,7 +515,6 @@
 // console.log(gen.next())
 
 
-
 // function add(a) {
 //     return function(b) {
 //         return function(c) {
@@ -528,3 +527,5 @@
 // const result = second(3)
 // console.log(second(3))
 // console.lot(result)*
+
+
