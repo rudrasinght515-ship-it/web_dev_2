@@ -515,6 +515,7 @@
 // console.log(gen.next())
 
 
+
 // function add(a) {
 //     return function(b) {
 //         return function(c) {
@@ -529,3 +530,50 @@
 // console.lot(result)*
 
 
+
+// import { useState } from "react"
+// import react,{useState} from "../css/Article.module.css"
+// function Article(props) {
+//     const[count,setCount] = useState(0)
+//     const[age,setAge] = useState(0)
+//     const[name,setName] = useState("")
+
+//     const handleIncrement= () => {
+//         setCount(count+1)
+//         console.log(count)
+//     }
+//  return (
+//     <div>
+//         <h2>Article</h2>
+//         <p>lorem ipsum color sit </p>
+//         <h3 style = {{backgroundcolor:"red"}}>{props.data}</h3>
+//         <h2>{count}</h2>
+//         <button className = {Artstlye.btn} onClick = {handleIncrement}>Increment</button>
+//     </div>
+//  )
+//  }
+
+//  export default Article
+
+//  const Button = Styled.button`
+//     background-color : blue;
+//     color : white;
+//     border-radius : 10px;  
+//     height : 30px;
+//     width : 100px;
+//  `;
+
+
+
+import { defineconfig } from 'vite' 
+import react from '@vitejs/plugin-react'
+
+// https://vite.dev/config/
+export default defineconfig({
+    plugins : [react()],
+    plugin : [react{
+        {
+            jsxImportSource : '@motion/react'
+        }
+    }]
+})
