@@ -563,17 +563,3 @@
 //     width : 100px;
 //  `;
 
-
-
-// import { defineconfig } from 'vite' 
-// import react from '@vitejs/plugin-react'
-
-// // https://vite.dev/config/
-// export default defineconfig({
-//     plugins : [react()],
-//     plugin : [react{
-//         {
-//             jsxImportSource : '@motion/react'
-//         }
-//     }]
-// })
