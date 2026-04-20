@@ -553,13 +553,13 @@
 //  )
 //  }
 
- export default Article
+//  export default Article
 
- const Button = Styled.button`
-    background-color : blue;
-    color : white;
-    border-radius : 10px;  
-    height : 30px;
-    width : 100px;
- `;
+//  const Button = Styled.button`
+//     background-color : blue;
+//     color : white;
+//     border-radius : 10px;  
+//     height : 30px;
+//     width : 100px;
+//  `;
 
