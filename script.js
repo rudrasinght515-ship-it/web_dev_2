@@ -378,7 +378,7 @@
 //     console.log("go to sleep");
 // });
 
-// async and await:-
+// // async and await:-
 // function orderFood() {
 //     return new Promise((res, rej) => {
 //         setTimeout(() => {
